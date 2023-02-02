@@ -1,5 +1,13 @@
 # Code Challenge
-Indicium code challenge for Software Developer focusing on data projects
+Solution for Indicium code challenge
+
+## The Challenge
+
+The challenge is to build a pipeline that extracts data from two sources (a Postgres database and a CSV file) and writes the data first to local disk and then to a database of my choice. The pipeline should run daily and the data should be separated by source, table and execution day. The final goal is to be able to run a query that shows the orders and its details.
+
+The pipeline will look something like this:
+
+![image](https://user-images.githubusercontent.com/49417424/105993225-e2aefb00-6084-11eb-96af-3ec3716b151a.png)
 
 ## Requirements
 
